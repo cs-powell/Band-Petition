@@ -27,7 +27,7 @@ h1 {
     margin-top: 30px;
     /* background-color: rgba(255, 0, 0, 0.621); */
     background-image: linear-gradient(red 20%,white 20%, white 65%,white 80%, blue 95%);
-    padding: 100px;
+    padding: 200px;
     color: black;
 
 }
@@ -44,14 +44,28 @@ h1 {
 }
 .block-left{
     width: 40%;
+    text-align: center;
 
 }
 .block-left img{
+    justify-self: center;
     width: 90%;
     border-style: ridge;
     border-color: cadetblue;
     border-width: 20px;
 }
+
+.block-left figcaption{
+   justify-self: center;
+   background-color: wheat;
+   font-size: 15px;
+   padding: 20px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   width: 90%;
+   text-align: center;
+}
+
 
 .block-right{
     width: 60%;
