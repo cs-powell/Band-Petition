@@ -1,0 +1,71 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    justify-self: center;
+    background-image: linear-gradient(to right,red,blue);
+    color: transparent;
+    background-clip: text;
+}
+
+.RB{
+    background-image: linear-gradient(to right,blue,red);
+    color: transparent;
+    background-clip: text;
+    height: fit-content;
+
+}
+
+.intro{
+    justify-self: center;
+    font-size: 40px;
+}
+
+.story{
+    margin-top: 30px;
+    /* background-color: rgba(255, 0, 0, 0.621); */
+    background-image: linear-gradient(red 20%,white 20%, white 65%,white 80%, blue 95%);
+    padding: 100px;
+    color: black;
+
+}
+.story .title{
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+.block-left{
+    width: 40%;
+
+}
+.block-left img{
+    width: 90%;
+    border-style: ridge;
+    border-color: cadetblue;
+    border-width: 20px;
+}
+
+.block-right{
+    width: 60%;
+    background-color: rgba(82, 81, 81, 0.208);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#strike{
+    text-decoration:line-through;
+}
+
+#fantasy{
+    font-family: cursive;
+    font-weight: bolder;
+    color:red;
+}
